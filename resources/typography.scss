@@ -1,0 +1,16 @@
+@import "scaffolding/index.scss";
+
+h1, h2, h3, h4, h5 {
+    @include font-supplementary;
+}
+
+p {
+    max-width: 38em;
+}
+
+a {
+    text-decoration: underline;
+
+    color: currentColor;
+    cursor: pointer;
+}
