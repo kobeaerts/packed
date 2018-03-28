@@ -11,6 +11,7 @@
   "devDependencies": {
     "autoprefixer": "^8.1.0",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-minify": "^0.3.0",
