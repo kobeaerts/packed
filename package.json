@@ -5,7 +5,7 @@
   "author": "Kobe Aerts",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --hot --config ./webpack-config/dev.babel.js",
+    "dev": "webpack-serve --config ./webpack-config/dev.babel.js",
     "build": "webpack --config ./webpack-config/build.babel.js"
   },
   "devDependencies": {
@@ -31,7 +31,8 @@
     "stylelint-webpack-plugin": "^0.10.3",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.1",
+    "webpack-serve": "^0.3.0"
   },
   "dependencies": {}
 }
