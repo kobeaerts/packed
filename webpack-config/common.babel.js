@@ -17,6 +17,12 @@ const config = {
                     loader: "babel-loader",
                 },
             },
+            {
+                test: /\.(png|svg|jpg)/,
+                use: {
+                    loader: "file-loader",
+                },
+            },
         ],
     },
     resolve: {
