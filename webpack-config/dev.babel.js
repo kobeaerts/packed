@@ -56,12 +56,10 @@ const config = {
         ],
     },
     plugins: [
-        /*
         new StylelintPlugin({
             emitErrors: false,
             syntax: 'scss',
         }),
-        */
     ],
     devServer: {
         contentBase: path.resolve(__dirname, '../public'),
