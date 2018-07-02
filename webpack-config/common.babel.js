@@ -25,6 +25,7 @@ const config = {
             },
         ],
     },
+    plugins: [],
     resolve: {
         modules: [
             path.resolve(__dirname, '../node_modules'),
