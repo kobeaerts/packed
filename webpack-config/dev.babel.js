@@ -59,6 +59,7 @@ const config = {
         new StylelintPlugin({
             emitErrors: false,
             syntax: 'scss',
+            fix: true,
         }),
     ],
     devServer: {
