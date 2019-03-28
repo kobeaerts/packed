@@ -1,26 +1,16 @@
 {
     "rules": {
-        "color-hex-case": "lower",
         "color-hex-length": "long",
         "color-named": "never",
-        "color-no-invalid-hex": true,
 
         "font-family-name-quotes": "always-unless-keyword",
-        "font-family-no-duplicate-names": true,
         "font-weight-notation": "numeric",
 
-        "function-calc-no-unspaced-operator": true,
-        "function-linear-gradient-no-nonstandard-direction": true,
-        "function-max-empty-lines": 0,
-        "function-name-case": "lower",
         "function-url-quotes": "always",
-        "function-whitespace-after": "always",
 
         "number-leading-zero": "never",
         "number-max-precision": 2,
-        "number-no-trailing-zeros": true,
 
-        "string-no-newline": true,
         "string-quotes": "double",
 
         "length-zero-no-unit": true,
@@ -28,7 +18,6 @@
         "time-min-milliseconds": 200,
 
         "unit-case": "lower",
-        "unit-no-unknown": true,
 
         "value-keyword-case": "lower",
         "value-no-vendor-prefix": true,
@@ -38,15 +27,12 @@
         "shorthand-property-no-redundant-values": true,
 
         "property-case": "lower",
-        "property-no-unknown": true,
         "property-no-vendor-prefix": true,
 
-        "declaration-block-no-duplicate-properties": true,
         "declaration-block-no-redundant-longhand-properties": true,
         "declaration-block-single-line-max-declarations": 0,
         "declaration-block-trailing-semicolon": "always",
 
-        "block-no-empty": true,
         "selector-attribute-quotes": "always",
         "selector-descendant-combinator-no-non-space": true,
         "selector-max-compound-selectors": 4,
@@ -67,11 +53,6 @@
         "indentation": 4,
         "max-empty-lines": 1,
         "max-nesting-depth": 4,
-        "no-descending-specificity": true,
-        "no-duplicate-selectors": true,
-        "no-empty-source": true,
         "no-eol-whitespace": true,
-        "no-extra-semicolons": true,
-        "no-missing-end-of-source-newline": true
     }
 }
